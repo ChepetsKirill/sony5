@@ -1,0 +1,184 @@
+body {
+	font-family: cursive;
+	text-align: center;
+	background-color: #0000FF;
+	color: white;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+.main {
+	background-image: linear-gradient(to bottom, #0000FF, #030372);
+}
+
+header {
+	border-bottom: 5px solid white;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+	margin-right: 151px;
+}
+
+.now {
+	box-shadow: 10px 5px 10px 0 black;
+}
+
+
+nav a:hover {
+	box-shadow: 10px 5px 10px 0 black;
+	transition: 2s;
+}
+
+nav {
+	margin-left: 200px;
+	margin-bottom: 70px;
+}
+
+.navi {
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-bottom: 7px;
+}
+
+.nav {
+	margin-left: 15px;
+	padding: 7px;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.navigation {
+	width: 100px;
+	background-color: lightgreen;
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	border-radius: 15px;
+	opacity: 0;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+}
+
+.navigation a:hover {
+	background-color: darkgreen;
+	border-radius: 15px;
+	transition: 1s;
+}
+
+.navigation:hover {
+	opacity: 1;
+	transition: 3s;
+}
+
+.info {
+	width: 650px;
+	margin-left: 15px;
+	font-size: 25px;
+}
+
+.info-img {
+	width: 500px;
+	height: 300px;
+	float: right;
+	position: absolute;
+	top: 500px;
+	right: 70px;
+}
+
+.psfive {
+	border-bottom: 5px solid white;
+}
+
+.buy {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	background-color: red;
+	border-radius: 15px;
+	width: 100px;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.buy:hover {
+	transform: scale(1.5);
+	transition: 2s;
+}
+
+.learn:hover {
+	transform: scale(1.5);
+	transition: 2s;
+}
+
+
+.learn {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: purple;
+	border-radius: 15px;
+	width: 200px;
+	margin: 10px;
+}
+
+.left {
+	left: 100px;
+	position: absolute;
+}
+
+.right-one {
+	right: 100px;
+	position: absolute;
+	top: 950px;
+}
+
+.right-two {
+	right: 100px;
+	position: absolute;
+	top: 990px;
+}
+
+.right-three {
+	right: 100px;
+	position: absolute;
+	top: 1100px;
+}
+
+.right-four {
+	right: 100px;
+	position: absolute;
+	top: 1140px;
+}
+
+.comments {
+	font-size: 30px;
+	border-bottom: 5px solid white;
+}
+
+.comments p {
+	text-decoration: underline;
+}
+
+.last {
+	font-size: 26px;
+	width: 50%;
+	border-bottom: 5px solid white;
+}
+
+.footer {
+	background-image: linear-gradient(to right, #FFFF00, #FF00FF, #7E0686);
+}
